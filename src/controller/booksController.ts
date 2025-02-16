@@ -13,7 +13,7 @@ export const getUniqueBook = async (
     _next: NextFunction
 ) => {
     const book = await prisma.book.findUnique({
-        where: { id: +req.params.id },
+        where: { id: req.params.id },
     })
 
     if (!book) throw new ErrorHandler('Book not found', 404)
@@ -24,7 +24,7 @@ export const getUniqueBook = async (
     }, delay)
 }
 
-const purchase = async (id: number) => {
+const purchase = async (id: string) => {
     return await prisma.$transaction(async (tx) => {
         try {
             const book = await tx.book.update({
@@ -58,6 +58,6 @@ export const purchaseBook = async (req: Request, res: Response) => {
             500
         )
 
-    const book = await purchase(+req.params.id)
+    const book = await purchase(req.params.id)
     return res.status(200).send({ message: 'Purchase successful', book })
 }

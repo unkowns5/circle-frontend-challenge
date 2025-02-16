@@ -1,6 +1,6 @@
 const mockData = [
     {
-        id: 1,
+        id: "1",
         title: 'To Kill a Mockingbird',
         author: 'Harper Lee',
         isbn: '9780061120084',
@@ -8,7 +8,7 @@ const mockData = [
         availableStock: 15,
     },
     {
-        id: 2,
+        id: "2",
         title: '1984',
         author: 'George Orwell',
         isbn: '9780451524935',
@@ -16,7 +16,7 @@ const mockData = [
         availableStock: 10,
     },
     {
-        id: 3,
+        id: "3",
         title: 'The Great Gatsby',
         author: 'F. Scott Fitzgerald',
         isbn: '9780743273565',
@@ -24,7 +24,7 @@ const mockData = [
         availableStock: 8,
     },
     {
-        id: 4,
+        id: "4",
         title: 'Pride and Prejudice',
         author: 'Jane Austen',
         isbn: '9780486284736',
@@ -32,7 +32,7 @@ const mockData = [
         availableStock: 12,
     },
     {
-        id: 5,
+        id: "5",
         title: 'To the Lighthouse',
         author: 'Virginia Woolf',
         isbn: '9780156907392',
@@ -40,7 +40,7 @@ const mockData = [
         availableStock: 5,
     },
     {
-        id: 6,
+        id: "6",
         title: 'The Catcher in the Rye',
         author: 'J.D. Salinger',
         isbn: '9780316769488',
@@ -48,7 +48,7 @@ const mockData = [
         availableStock: 10,
     },
     {
-        id: 7,
+        id: "7",
         title: 'Moby-Dick',
         author: 'Herman Melville',
         isbn: '9781503280787',
@@ -56,7 +56,7 @@ const mockData = [
         availableStock: 7,
     },
     {
-        id: 8,
+        id: "8",
         title: 'The Hobbit',
         author: 'J.R.R. Tolkien',
         isbn: '9780547928227',
@@ -64,7 +64,7 @@ const mockData = [
         availableStock: 20,
     },
     {
-        id: 9,
+        id: "9",
         title: 'The Lord of the Rings',
         author: 'J.R.R. Tolkien',
         isbn: '9780618640157',
@@ -72,7 +72,7 @@ const mockData = [
         availableStock: 18,
     },
     {
-        id: 10,
+        id: "10",
         title: 'Brave New World',
         author: 'Aldous Huxley',
         isbn: '9780060850524',
@@ -80,7 +80,7 @@ const mockData = [
         availableStock: 15,
     },
     {
-        id: 11,
+        id: "11",
         title: 'Jane Eyre',
         author: 'Charlotte Bronte',
         isbn: '9780141441146',
@@ -88,7 +88,7 @@ const mockData = [
         availableStock: 11,
     },
     {
-        id: 12,
+        id: "12",
         title: 'The Odyssey',
         author: 'Homer',
         isbn: '9780140449112',
@@ -96,7 +96,7 @@ const mockData = [
         availableStock: 9,
     },
     {
-        id: 13,
+        id: "13",
         title: 'Frankenstein',
         author: 'Mary Shelley',
         isbn: '9780486282114',
@@ -104,7 +104,7 @@ const mockData = [
         availableStock: 14,
     },
     {
-        id: 14,
+        id: "14",
         title: 'The Picture of Dorian Gray',
         author: 'Oscar Wilde',
         isbn: '9780486278070',
@@ -112,7 +112,7 @@ const mockData = [
         availableStock: 6,
     },
     {
-        id: 15,
+        id: "15",
         title: 'The Alchemist',
         author: 'Paulo Coelho',
         isbn: '9780062315007',
@@ -120,7 +120,7 @@ const mockData = [
         availableStock: 13,
     },
     {
-        id: 16,
+        id: "16",
         title: 'Animal Farm',
         author: 'George Orwell',
         isbn: '9780451526342',
@@ -128,7 +128,7 @@ const mockData = [
         availableStock: 10,
     },
     {
-        id: 17,
+        id: "17",
         title: 'The Chronicles of Narnia',
         author: 'C.S. Lewis',
         isbn: '9780064404990',
@@ -136,7 +136,7 @@ const mockData = [
         availableStock: 16,
     },
     {
-        id: 18,
+        id: "18",
         title: 'Gone with the Wind',
         author: 'Margaret Mitchell',
         isbn: '9781451635621',
@@ -144,7 +144,7 @@ const mockData = [
         availableStock: 22,
     },
     {
-        id: 19,
+        id: "19",
         title: 'The Book Thief',
         author: 'Markus Zusak',
         isbn: '9780375842207',
@@ -152,7 +152,7 @@ const mockData = [
         availableStock: 9,
     },
     {
-        id: 20,
+        id: "20",
         title: "Harry Potter and the Philosopher's Stone",
         author: 'J.K. Rowling',
         isbn: '9781408855652',

@@ -9,7 +9,7 @@
         "start": "node dist/src/index.js",
         "reset": "ts-node prisma-client.ts",
         "postinstall": "prisma generate && prisma migrate deploy",
-        "vercel-build": "prisma generate && prisma migrate deploy && npm run build"
+        "vercel-build": "prisma db push && npm run build"
     },
     "keywords": [],
     "author": "",

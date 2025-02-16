@@ -1,8 +1,8 @@
 import express from 'express'
 import cors from 'cors'
 
-import ErrorHandler from '../dist/src/utils/ErrorHandler'
-import booksRouter from '../dist/src/router/booksRouter'
+import ErrorHandler from '../src/utils/ErrorHandler'
+import booksRouter from '../src/router/booksRouter'
 
 const app = express()
 const port = 8000

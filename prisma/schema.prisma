@@ -12,7 +12,7 @@ datasource db {
 }
 
 model Book {
-  id       String       @id @default(auto()) @map("_id") @db.ObjectId
+  id      String       @id @default(auto()) @map("_id") @db.ObjectId
   title    String
   author   String
   isbn     String

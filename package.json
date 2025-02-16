@@ -8,8 +8,7 @@
         "build": "npm install && tsc",
         "start": "node dist/src/index.js",
         "reset": "ts-node prisma-client.ts",
-        "postinstall": "npx prisma generate",
-        "vercel-build": "npx prisma db push && npx prisma generate && npm run build"
+        "postinstall": "npx prisma db push && npx prisma generate"
     },
     "keywords": [],
     "author": "",

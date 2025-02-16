@@ -10,13 +10,15 @@ const port = 8000
 app.use(express.json())
 app.use(cors())
 
+app.use('/books', booksRouter)
+
 app.get("/", (req, res) => {
     res.send("Express on Vercel");
 });
 
-// app.use((_req, _res, next) => {
-//     next(new ErrorHandler('Route not found', 404))
-// })
+app.use((_req, _res, next) => {
+    next(new ErrorHandler('Route not found', 404))
+})
 
 
 app.listen(port, () => {

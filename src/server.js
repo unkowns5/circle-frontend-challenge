@@ -12,9 +12,13 @@ app.use(cors())
 
 app.use('/books', booksRouter)
 
-app.use((_req, _res, next) => {
-    next(new ErrorHandler('Route not found', 404))
-})
+app.get("/", (req, res) => {
+    res.send("Express on Vercel");
+});
+
+// app.use((_req, _res, next) => {
+//     next(new ErrorHandler('Route not found', 404))
+// })
 
 app.use(errorHandler)
 

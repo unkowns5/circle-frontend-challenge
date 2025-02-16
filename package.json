@@ -8,7 +8,7 @@
         "build": "npm install && tsc",
         "start": "node dist/src/index.js",
         "reset": "ts-node prisma-client.ts",
-        "postinstall": "prisma generate"
+        "postinstall": "prisma generate && prisma migrate deploy"
     },
     "keywords": [],
     "author": "",

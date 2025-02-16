@@ -7,16 +7,18 @@
         "dev": "nodemon --watch 'src/**/*.{ts,json}' --exec ts-node src/index.ts",
         "build": "npm install && tsc",
         "start": "node dist/src/index.js",
-        "reset": "ts-node prisma-client.ts"
+        "reset": "ts-node prisma-client.ts",
+        "vercel-build": "npx prisma generate && npm run build"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@prisma/client": "^4.16.1",
+        "@prisma/client": "^4.16.0",
         "cors": "^2.8.5",
         "express": "^4.18.2",
-        "swagger-ui-express": "^5.0.0"
+        "swagger-ui-express": "^5.0.0",
+        "vercel": "^41.1.4"
     },
     "devDependencies": {
         "@types/cors": "^2.8.13",
